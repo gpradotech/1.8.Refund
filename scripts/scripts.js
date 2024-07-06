@@ -60,7 +60,7 @@ function expenseAdd(newExpense) {
 
     // Cria o ícone da categoria.
     const expenseIcon = document.createElement('img')
-    expenseIcon.setAttribute('src', `../assets/images/informative/${newExpense.category_id}.svg`)
+    expenseIcon.setAttribute('src', `./assets/images/informative/${newExpense.category_id}.svg`)
     expenseIcon.setAttribute('alt', newExpense.category_name)
 
 
@@ -87,7 +87,7 @@ function expenseAdd(newExpense) {
     // Adiciona o ícone de remover
     const removeIcon = document.createElement('img')
     removeIcon.classList.add('remove-icon')
-    removeIcon.setAttribute('src', "../assets/images/functional/remove.svg")
+    removeIcon.setAttribute('src', "./assets/images/functional/remove.svg")
     removeIcon.setAttribute('alt', 'remover despesa')
 
     // Adiciona as informações no item.
